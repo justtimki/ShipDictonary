@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ShipDirectory.Factory.AbstractFactory" Collapsed="true">
+    <Position X="6.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gABAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDirectory.Program" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDirectory.Repositories.AbstractRepository" Collapsed="true">
+    <Position X="2.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAhAAUAAQAAAAAAAAAAAAEgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\AbstractRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ShipDirectory.Repositories.BinaryRepository" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAEAAAAAAAAABAAAQAAgAAAABAAgA=</HashCode>
+      <FileName>Repositories\BinaryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDirectory.Repositories.MemoryRepository" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAEAAAAAAAAABAAAAAQgAAAAAAAgA=</HashCode>
+      <FileName>Repositories\MemoryRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDirectory.Repositories.TextRepository" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAQAAAQAAAEAAAAAAAAABAAAQAAgAAAABAAgA=</HashCode>
+      <FileName>Repositories\TextRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipDirectory.ShipModel.Ship" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAEAAAAAAQAAAIAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>ShipModel\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ShipDirectory.Repositories.IRepository" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAAAgAAAAAQAAAAAAAAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
